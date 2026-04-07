@@ -14,5 +14,4 @@ spec:
   destination:
     name: kargo
   syncPolicy:
-    automated:
-      prune: true
+    # automated: removed to disable auto sync
