@@ -90,6 +90,7 @@ spec:
     name: demo
     namespace: akp-demo
   syncPolicy:
+    automated: {}
     syncOptions:
     - CreateNamespace=true
 
